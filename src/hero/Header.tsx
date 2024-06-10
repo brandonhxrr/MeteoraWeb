@@ -19,7 +19,7 @@ const Header = ({ navigation, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) 
       <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
           <a href="#" className="flex items-center">
-            <img className="h-8 w-auto" src="/assets/only_logo.svg" alt="Logo" />
+            <img className="h-8 w-auto" src="https://brandonhxrr.github.io/Meteora/assets/only_logo.svg" alt="Logo" />
             <p className="text-lg font-bold tracking-tight text-gray-900 pl-3 font-logo">Meteora</p>
           </a>
           </div>
@@ -41,7 +41,7 @@ const Header = ({ navigation, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) 
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="mailto:brandondh769@gmail.com?subject=Portfolio Contact" className="text-sm font-semibold leading-6 text-white rounded-full bg-gradient-to-r from-indigo-600 to-blue-500 p-2">
+            <a href="https://github.com/brandonhxrr/Meteora/releases/tag/v1.0-beta.1" className="text-sm font-semibold leading-6 text-white rounded-full bg-gradient-to-r from-indigo-600 to-blue-500 p-2">
               Download
             </a>
           </div>
@@ -77,7 +77,7 @@ const Header = ({ navigation, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) 
                 </div>
                 <div className="py-6">
                   <a
-                    href="mailto:brandondh769@gmail.com?subject=Portfolio Contact"
+                    href="https://github.com/brandonhxrr/Meteora/releases/tag/v1.0-beta.1"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
                     Download
                   </a>
