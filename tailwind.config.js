@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        logo: ['Product Sans Regular', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
