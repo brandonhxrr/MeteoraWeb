@@ -3,7 +3,7 @@ const MainContent = () => {
     <div className="relative flex flex-col lg:flex-row items-center justify-between min-h-screen px-6 lg:px-8 pt-16 lg:pt-0">
       <div className="flex flex-col justify-center w-full lg:w-1/2 text-left mb-6 lg:mb-0 lg:ml-28">
         <div className="flex items-center justify-center lg:justify-start mb-4">
-          <img src="only_logo.svg" alt="Logo" className="h-16 w-auto mr-4" />
+          <img src="/assets/only_logo.svg" alt="Logo" className="h-16 w-auto mr-4" />
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-7xl text-center lg:text-left font-logo">
             Meteora
           </h1>
@@ -22,7 +22,7 @@ const MainContent = () => {
       </div>
       <div className="flex justify-center lg:block lg:w-1/2 lg:h-96 px-6">
         <img
-          src="splash.svg"
+          src="/assets/splash.svg"
           alt="Splash"
           className="object-contain w-full lg:h-full"
         />

@@ -19,7 +19,7 @@ const Header = ({ navigation, mobileMenuOpen, setMobileMenuOpen }: HeaderProps) 
       <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
           <a href="#" className="flex items-center">
-            <img className="h-8 w-auto" src="only_logo.svg" alt="Logo" />
+            <img className="h-8 w-auto" src="/assets/only_logo.svg" alt="Logo" />
             <p className="text-lg font-bold tracking-tight text-gray-900 pl-3 font-logo">Meteora</p>
           </a>
           </div>
